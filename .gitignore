@@ -1,0 +1,619 @@
+# ============================================
+# Python - Backend
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyc
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================
+# Node.js - Frontend
+# ============================================
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build / generate output
+.nuxt
+dist/
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.storybook-out/
+
+# Temporary folders
+tmp/
+temp/
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.vs/
+
+# JetBrains IDEs (PyCharm, WebStorm, IntelliJ)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+*.sublime-settings
+
+# Vim
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# TextMate
+*.tmproj
+*.tmproject
+
+# VSCode settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.history/
+
+# ============================================
+# OS Generated Files
+# ============================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.DS_Store
+*.dll
+*.exe
+*.sys
+*.pif
+*.scr
+*.bat
+*.cmd
+*.com
+*.cpl
+*.msi
+*.msu
+*.ps1
+*.vbs
+*.wsf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux
+*~
+.directory
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# ============================================
+# Database Files
+# ============================================
+
+# PostgreSQL
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.dump
+*.backup
+
+# Neo4j
+*.db
+*.log
+*.script
+*.properties
+*.conf
+
+# Redis
+*.rdb
+*.aof
+dump.rdb
+
+# ============================================
+# Docker Files
+# ============================================
+
+# Docker
+*.pid
+*.log
+docker-compose.override.yml
+.dockerignore
+!docker-compose.yml
+
+# ============================================
+# Logs & Temp Files
+# ============================================
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.cached
+
+# ============================================
+# Secrets & Keys
+# ============================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.staging
+.env.test
+.env.example
+
+# Secret keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+
+# API keys
+config/secrets.yml
+config/secrets.yaml
+secrets.yml
+secrets.yaml
+credentials.json
+service-account.json
+
+# AWS credentials
+.aws/
+credentials
+config
+
+# SSH keys
+*.rsa
+*.pub
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# ============================================
+# Application Specific
+# ============================================
+
+# Data files
+data/
+*.data
+*.dat
+*.jsonl
+
+# Embeddings
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pb
+
+# Cache files
+.cache/
+cache/
+*.cache
+
+# Backups
+*.backup
+*.bak
+*.old
+
+# ============================================
+# CI/CD & Deployment
+# ============================================
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ansible
+*.retry
+
+# Kubernetes
+*.secret.yaml
+*.secret.yml
+kubeconfig
+
+# Helm
+charts/*/templates/*.secret.yaml
+charts/*/values.secret.yaml
+
+# ============================================
+# Testing & Coverage
+# ============================================
+
+# Coverage reports
+coverage/
+coverage.xml
+*.coverage
+htmlcov/
+.nyc_output/
+
+# Test files
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+*.test.tsx
+*.spec.tsx
+
+# ============================================
+# Misc
+# ============================================
+
+# Project specific
+*.swp
+*.swo
+*~
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================
+# Specific to AI Knowledge Evolution Engine
+# ============================================
+
+# Backend specific
+backend/venv/
+backend/*.pyc
+backend/__pycache__/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/*.db
+backend/*.sqlite3
+backend/logs/
+backend/instance/
+backend/migrations/*.pyc
+backend/migrations/__pycache__/
+
+# Frontend specific
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.env.local
+frontend/*.log
+frontend/coverage/
+
+# Database specific
+database/backup/
+database/temp/
+
+# Docker volumes
+volumes/
+docker/volumes/
+
+# Airflow
+airflow.cfg
+airflow.db
+webserver_config.py
+logs/
+dags/__pycache__/
+
+# Kafka
+*.log
+*.index
+*.timeindex
+*.snapshot
+*.partition
+
+# ============================================
+# Python Package Files
+# ============================================
+
+# Poetry
+poetry.lock
+pyproject.toml
+
+# Setuptools
+*.egg-info/
+*.egg
+PKG-INFO
+
+# ============================================
+# Frontend Build Files
+# ============================================
+
+# Build output
+build/
+dist/
+out/
+.next/
+.nuxt/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# ============================================
+# Misc Development Files
+# ============================================
+
+# Git
+!.gitignore
+*.patch
+*.diff
+
+# Backup files
+*.orig
+*.rej
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Diagrams
+*.drawio
+*.bkp
+
+# ============================================
+# Sensitive Data
+# ============================================
+
+# Personal data
+*.pem
+*.key
+*.crt
+*.csr
+*.jks
+
+# Database credentials
+*.cnf
+*.my.cnf
+
+# ============================================
+# Dependency lock files (keep these)
+# ============================================
+
+# !package-lock.json
+# !yarn.lock
+# !pnpm-lock.yaml
+# !requirements.txt
+# !Pipfile.lock
+# !poetry.lock
