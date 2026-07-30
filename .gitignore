@@ -603,7 +603,10 @@ out/
 *.csr
 *.jks
 
-# Database credentials
+# Database credentialsgit add .gitignore
+git commit -m "Update .gitignore with comprehensive rules"
+git push origin main
+
 *.cnf
 *.my.cnf
 
